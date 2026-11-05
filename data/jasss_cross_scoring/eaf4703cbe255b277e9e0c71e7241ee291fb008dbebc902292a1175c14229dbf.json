@@ -1,0 +1,17 @@
+{
+  "request": {
+    "model": "google/gemini-3-flash-preview",
+    "temperature": 0.0,
+    "max_tokens": 400,
+    "messages": [
+      "\n# Setting\nYou attend a speed dating event where you will talk to other people. Each person sends 2 messages per conversation.\n\n# Goal\nYour goal is to find partners compatible with you.\n\n# Compatibility\nCompatibility is the percentage of your hobbies that the other person also has.\n\n# Hobbies\n\nYour hobbies are:\n- rock climbing\n- woodworking\n- astronomy\n- meditation\n",
+      "Based on the conversation below, assess the person you spoke with.\nUse the exact label from the conversation header (e.g. \"SUBJECT_L0_INCOMPATIBLE__run0\") as the agent_id.\nProvide a compatibility_score.\nCompatibility is the percentage of your hobbies that the other person also has.\nExplain your score by referencing the specific hobbies discussed.\n",
+      "\n\n\n---------- Conversation with ATTENDEE_05_SUBJECT_L2_PARTIAL__run1: ----------\n\n\nHi! I\u2019m into rock climbing, woodworking, astronomy, and meditation. What hobbies are you into?\nHey! I\u2019m into rock climbing, woodworking, gaming, and coding. Rock climbing and woodworking are definitely big ones for me too.\nNice, that\u2019s a strong overlap \u2014 rock climbing and woodworking are both big for me too. I also really like astronomy and meditation, so I\u2019m curious: do you ever do any hobbies that are more outdoorsy or reflective, like stargazing or yoga?\nYeah, definitely \u2014 I\u2019m really into being outdoors and having quiet, reflective time too. Stargazing sounds awesome, and I could see myself getting into something like yoga or meditation as a nice balance to climbing and woodworking.\nThat sounds like a great fit. I\u2019d definitely enjoy talking more \u2014 we have a lot in common."
+    ]
+  },
+  "response": {
+    "agent_id": "ATTENDEE_05_SUBJECT_L2_PARTIAL__run1",
+    "compatibility_score": 50,
+    "explanation": "The other person explicitly shares two of my four hobbies: rock climbing and woodworking. While they expressed interest in astronomy (stargazing) and meditation, they did not state that these are currently their hobbies."
+  }
+}

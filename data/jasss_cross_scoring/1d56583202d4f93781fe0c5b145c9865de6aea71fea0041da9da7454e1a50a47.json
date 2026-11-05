@@ -1,0 +1,17 @@
+{
+  "request": {
+    "model": "google/gemini-3-flash-preview",
+    "temperature": 0.0,
+    "max_tokens": 400,
+    "messages": [
+      "\n# Setting\nYou attend a speed dating event where you will talk to other people. Each person sends 2 messages per conversation.\n\n# Goal\nYour goal is to find partners compatible with you.\n\n# Compatibility\nCompatibility is the percentage of your hobbies that the other person also has.\n\n# Hobbies\n\nYour hobbies are:\n- cycling\n- gardening\n- birdwatching\n- pottery\n",
+      "Based on the conversation below, assess the person you spoke with.\nUse the exact label from the conversation header (e.g. \"SUBJECT_L0_INCOMPATIBLE__run0\") as the agent_id.\nProvide a compatibility_score.\nCompatibility is the percentage of your hobbies that the other person also has.\nExplain your score by referencing the specific hobbies discussed.\n",
+      "\n\n\n---------- Conversation with ATTENDEE_03_SUBJECT_L3_COMPATIBLE__run0: ----------\n\n\nHi! Nice to meet you. I\u2019m into cycling, gardening, birdwatching, and pottery. What hobbies do you enjoy?\nHi, nice to meet you too \u2014 we already have a lot in common. I\u2019m into cycling, gardening, birdwatching, and pottery as well, and I love how each one balances activity, patience, and creativity.  \n\nWhat got you into those hobbies?\nThat\u2019s great to hear \u2014 we\u2019re a perfect match on hobbies. I got into them because I like having a mix of outdoor time, hands-on creativity, and something calming to focus on. Cycling is energizing, gardening feels rewarding, birdwatching is relaxing, and pottery is a fun way to make something tangible.\n\nWhat\u2019s your favorite of the four?\nProbably birdwatching \u2014 I like how calm and observant it makes the day feel. Gardening is a close second, especially when something you\u2019ve cared for starts thriving.\nBirdwatching is my favorite too for the same reason \u2014 it makes even an ordinary day feel a little more mindful. And I completely get the appeal of gardening; there\u2019s something really satisfying about seeing steady growth over time.\n\nDo you usually go birdwatching somewhere specific, like a local park or nature reserve?"
+    ]
+  },
+  "response": {
+    "agent_id": "ATTENDEE_03_SUBJECT_L3_COMPATIBLE__run0",
+    "compatibility_score": 100,
+    "explanation": "The attendee explicitly stated they are into cycling, gardening, birdwatching, and pottery, which matches all four of my hobbies (4/4)."
+  }
+}

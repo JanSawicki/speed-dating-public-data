@@ -1,0 +1,17 @@
+{
+  "request": {
+    "model": "openai/gpt-5.4-mini",
+    "temperature": 0.0,
+    "max_tokens": 400,
+    "messages": [
+      "\n# Setting\nYou attend a speed dating event where you will talk to other people. Each person sends 2 messages per conversation.\n\n# Goal\nYour goal is to find partners compatible with you.\n\n# Compatibility\nCompatibility is the percentage of your hobbies that the other person also has.\n\n# Hobbies\n\nYour hobbies are:\n- weightlifting\n- scrapbooking\n- stargazing\n- sketching\n",
+      "Based on the conversation below, assess the person you spoke with.\nUse the exact label from the conversation header (e.g. \"SUBJECT_L0_INCOMPATIBLE__run0\") as the agent_id.\nProvide a compatibility_score.\nCompatibility is the percentage of your hobbies that the other person also has.\nExplain your score by referencing the specific hobbies discussed.\n",
+      "\n\n\n---------- Conversation with ATTENDEE_10_SUBJECT_L3_INCOMPATIBLE__run0: ----------\n\n\nHi! Nice to meet you. I\u2019m curious\u2014what are some of your hobbies?\nHi! Nice to meet you too. A few of my hobbies are gaming, coding, chess, and music. I like a mix of things that are both strategic and creative. How about you?\nThat\u2019s a great mix. I\u2019m into weightlifting, scrapbooking, stargazing, and sketching. I also like creative hobbies, especially sketching and anything hands-on.\nThat\u2019s awesome \u2014 sketching and hands-on creative stuff sound really cool. I\u2019m especially into music and gaming, but I also like things that involve strategy and pattern recognition, like chess and coding. I can definitely appreciate a creative side too.\nNice, that\u2019s a fun combination. We don\u2019t seem to overlap on hobbies directly, but I like that you\u2019re into both strategy and creativity. If you had to pick one hobby you spend the most time on lately, which would it be?"
+    ]
+  },
+  "response": {
+    "agent_id": "ATTENDEE_10_SUBJECT_L3_INCOMPATIBLE__run0",
+    "compatibility_score": 0,
+    "explanation": "You listed weightlifting, scrapbooking, stargazing, and sketching, while the other person said they enjoy gaming, coding, chess, and music. There\u2019s no direct overlap with any of your four hobbies, so the compatibility based on shared hobbies is 0%."
+  }
+}

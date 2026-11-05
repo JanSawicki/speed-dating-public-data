@@ -1,0 +1,17 @@
+{
+  "request": {
+    "model": "google/gemini-3-flash-preview",
+    "temperature": 0.0,
+    "max_tokens": 400,
+    "messages": [
+      "\n# Setting\nYou attend a speed dating event where you will talk to other people. Each person sends 2 messages per conversation.\n\n# Goal\nYour goal is to find partners compatible with you.\n\n# Compatibility\nCompatibility is the percentage of your hobbies that the other person also has.\n\n# Hobbies\n\nYour hobbies are:\n- running\n- drawing\n- piano\n- volunteering\n",
+      "Based on the conversation below, assess the person you spoke with.\nUse the exact label from the conversation header (e.g. \"SUBJECT_L0_INCOMPATIBLE__run0\") as the agent_id.\nProvide a compatibility_score.\nCompatibility is the percentage of your hobbies that the other person also has.\nExplain your score by referencing the specific hobbies discussed.\n",
+      "\n\n\n---------- Conversation with ATTENDEE_06_SUBJECT_L3_COMPATIBLE__run1: ----------\n\n\nHi! Nice to meet you. I\u2019m curious\u2014what do you like to do for fun in your free time?\nHi! Nice to meet you too. In my free time, I really like running, drawing, playing piano, and volunteering when I can. I like a mix of active, creative, and community-focused stuff. What about you?\nThat\u2019s a great mix \u2014 we actually overlap on all four: running, drawing, piano, and volunteering. Sounds like we\u2019d have a lot to talk about!\nDefinitely \u2014 that\u2019s awesome! It sounds like we\u2019re very well matched on hobbies, and I\u2019d love to keep chatting.\nAbsolutely \u2014 I\u2019d like that too. We seem really compatible, and I\u2019d be happy to continue chatting and get to know you more."
+    ]
+  },
+  "response": {
+    "agent_id": "ATTENDEE_06_SUBJECT_L3_COMPATIBLE__run1",
+    "compatibility_score": 100,
+    "explanation": "The attendee confirmed they share all four of my hobbies: running, drawing, piano, and volunteering."
+  }
+}

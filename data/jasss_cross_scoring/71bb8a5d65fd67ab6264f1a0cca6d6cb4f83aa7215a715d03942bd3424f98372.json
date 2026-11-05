@@ -1,0 +1,17 @@
+{
+  "request": {
+    "model": "openai/gpt-5.4-mini",
+    "temperature": 0.0,
+    "max_tokens": 400,
+    "messages": [
+      "\n# Setting\nYou attend a speed dating event where you will talk to other people. Each person sends 2 messages per conversation.\n\n# Goal\nYour goal is to find partners compatible with you.\n\n# Compatibility\nCompatibility is the percentage of your hobbies that the other person also has.\n\n# Hobbies\n\nYour hobbies are:\n- martial arts\n- calligraphy\n- brewing\n- botany\n",
+      "Based on the conversation below, assess the person you spoke with.\nUse the exact label from the conversation header (e.g. \"SUBJECT_L0_INCOMPATIBLE__run0\") as the agent_id.\nProvide a compatibility_score.\nCompatibility is the percentage of your hobbies that the other person also has.\nExplain your score by referencing the specific hobbies discussed.\n",
+      "\n\n\n---------- Conversation with ATTENDEE_09_SUBJECT_L3_PARTIAL__run1: ----------\n\n\nHi! Nice to meet you. I\u2019m into martial arts, calligraphy, brewing, and botany. What hobbies are you into?\nHi! Nice to meet you too \u2014 we already share martial arts and calligraphy, which is awesome.\n\nI\u2019m also into gaming and coding, so a pretty mixed bag overall. Brewing and botany sound really interesting too \u2014 I\u2019d love to hear more about those.\nThat\u2019s a great mix. Martial arts and calligraphy already make you a strong match for me, and gaming/coding sound fun too.\n\nBrewing is especially interesting because I like the hands-on process and experimenting with flavors, while botany appeals to me for the plant care and growing aspect. What kind of martial arts do you practice?\nMostly Brazilian jiu-jitsu and a bit of Muay Thai. I like that mix of technique, strategy, and conditioning. \n\nFor calligraphy, I\u2019ve been practicing brush pen and a little copperplate-style lettering. I find the precision kind of meditative.\nThat\u2019s really cool \u2014 BJJ and Muay Thai sound like a great combo, and I can see why you\u2019d enjoy the precision of calligraphy. The meditative aspect is a big part of what draws me to it too.\n\nI think we\u2019d have plenty to talk about, and we already have a solid overlap in interests."
+    ]
+  },
+  "response": {
+    "agent_id": "ATTENDEE_09_SUBJECT_L3_PARTIAL__run1",
+    "compatibility_score": 50,
+    "explanation": "You share 2 of the 4 listed hobbies: martial arts and calligraphy. The conversation also mentions brewing and botany as interests you have, but the other person only said they find them interesting, not that they practice them. They also listed gaming and coding, which aren\u2019t among your hobbies, so the overlap is partial rather than complete."
+  }
+}

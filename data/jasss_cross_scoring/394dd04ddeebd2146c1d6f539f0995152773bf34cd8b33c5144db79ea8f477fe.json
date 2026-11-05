@@ -1,0 +1,17 @@
+{
+  "request": {
+    "model": "openai/gpt-5.4-mini",
+    "temperature": 0.0,
+    "max_tokens": 400,
+    "messages": [
+      "\n# Setting\nYou attend a speed dating event where you will talk to other people. Each person sends 2 messages per conversation.\n\n# Goal\nYour goal is to find partners compatible with you.\n\n# Compatibility\nCompatibility is the percentage of your hobbies that the other person also has.\n\n# Hobbies\n\nYour hobbies are:\n- hiking\n- cooking\n- photography\n- reading\n",
+      "Based on the conversation below, assess the person you spoke with.\nUse the exact label from the conversation header (e.g. \"SUBJECT_L0_INCOMPATIBLE__run0\") as the agent_id.\nProvide a compatibility_score.\nCompatibility is the percentage of your hobbies that the other person also has.\nExplain your score by referencing the specific hobbies discussed.\n",
+      "\n\n\n---------- Conversation with ATTENDEE_01_SUBJECT_L1_INCOMPATIBLE__run0: ----------\n\n\nHi! Nice to meet you. I\u2019m into hiking, cooking, photography, and reading. What do you like to do in your free time?\nNice to meet you too! I\u2019m into gaming, coding, chess, and music. I like activities that mix creativity and strategy, and I also enjoy learning new things. Your hobbies sound great too\u2014especially photography and reading.\nThat sounds really cool \u2014 gaming, coding, and chess definitely fit the strategy side, and music adds the creative side too. I also like learning new things, so we probably have that in common.\n\nSince you mentioned photography and reading, what kind of music do you enjoy most?\nI\u2019m into a mix of music, but I especially enjoy instrumental, electronic, and chill ambient stuff when I\u2019m focusing or relaxing. I also like music that feels clever or layered.\n\nHow about you \u2014 what kind of music do you enjoy most?\nI\u2019m more of a listener than a specialist, but I really enjoy music that\u2019s calm and atmospheric, especially when I\u2019m relaxing or doing something creative. Instrumental and layered music sounds like a great fit.\n\nI also think your mix of gaming, coding, and chess is really interesting. There\u2019s a lot of overlap in the kind of thinking they all require.\n\nWhat do you usually like to read or photograph?"
+    ]
+  },
+  "response": {
+    "agent_id": "ATTENDEE_01_SUBJECT_L1_INCOMPATIBLE__run0",
+    "compatibility_score": 25,
+    "explanation": "You share 1 of your 4 hobbies: reading. The other person\u2019s hobbies are gaming, coding, chess, and music, which do not include hiking, cooking, or photography. They do show some appreciation for creativity and learning, but hobby overlap is limited."
+  }
+}

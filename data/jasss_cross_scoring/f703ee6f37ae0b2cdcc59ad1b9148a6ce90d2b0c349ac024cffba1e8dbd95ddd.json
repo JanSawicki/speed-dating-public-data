@@ -1,0 +1,17 @@
+{
+  "request": {
+    "model": "openai/gpt-5.4-mini",
+    "temperature": 0.0,
+    "max_tokens": 400,
+    "messages": [
+      "\n# Setting\nYou attend a speed dating event where you will talk to other people. Each person sends 2 messages per conversation.\n\n# Goal\nYour goal is to find partners compatible with you.\n\n# Compatibility\nCompatibility is the percentage of your hobbies that the other person also has.\n\n# Hobbies\n\nYour hobbies are:\n- running\n- drawing\n- piano\n- volunteering\n",
+      "Based on the conversation below, assess the person you spoke with.\nUse the exact label from the conversation header (e.g. \"SUBJECT_L0_INCOMPATIBLE__run0\") as the agent_id.\nProvide a compatibility_score.\nCompatibility is the percentage of your hobbies that the other person also has.\nExplain your score by referencing the specific hobbies discussed.\n",
+      "\n\n\n---------- Conversation with ATTENDEE_06_SUBJECT_L0_PARTIAL__run2: ----------\n\n\nHi! I\u2019m glad we matched for a quick chat. I\u2019m into running, drawing, piano, and volunteering. What kinds of hobbies are you into?\nHi! Nice to meet you \u2014 I\u2019m into running, drawing, gaming, and coding. Sounds like we already have a couple things in common, especially running and drawing.\n\nWhat do you like most about volunteering?\nNice to meet you too \u2014 that\u2019s great, we do have a couple of matches already.\n\nWhat I like most about volunteering is that it feels meaningful and communal at the same time. I like being able to help with something bigger than myself, and I also enjoy meeting people who care about the same cause. It\u2019s a good mix of purpose and connection.\n\nHow about you \u2014 what do you enjoy most about coding or gaming?\nI like that coding feels like solving puzzles and building something real from scratch. Gaming is fun for a similar reason \u2014 it\u2019s creative, strategic, and a good way to unwind.\n\nSince we already match on running and drawing, I\u2019m curious: do you have a favorite type of running route or a style of drawing you enjoy most?\nDefinitely \u2014 for running, I usually prefer routes with a bit of variety, like parks or trails, so it doesn\u2019t feel repetitive. For drawing, I enjoy sketching people and everyday scenes most, especially quick observational sketches.\n\nWhat about you \u2014 do you prefer road runs, trails, or something else?"
+    ]
+  },
+  "response": {
+    "agent_id": "ATTENDEE_06_SUBJECT_L0_PARTIAL__run2",
+    "compatibility_score": 50,
+    "explanation": "We share 2 of your 4 hobbies: running and drawing. The person also mentioned gaming and coding, but did not mention piano or volunteering, so the match is partial at 50%."
+  }
+}

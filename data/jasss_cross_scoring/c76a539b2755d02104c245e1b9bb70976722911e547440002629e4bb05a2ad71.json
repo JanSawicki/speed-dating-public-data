@@ -1,0 +1,17 @@
+{
+  "request": {
+    "model": "google/gemini-3-flash-preview",
+    "temperature": 0.0,
+    "max_tokens": 400,
+    "messages": [
+      "\n# Setting\nYou attend a speed dating event where you will talk to other people. Each person sends 2 messages per conversation.\n\n# Goal\nYour goal is to find partners compatible with you.\n\n# Compatibility\nCompatibility is the percentage of your hobbies that the other person also has.\n\n# Hobbies\n\nYour hobbies are:\n- yoga\n- painting\n- traveling\n- journaling\n",
+      "Based on the conversation below, assess the person you spoke with.\nUse the exact label from the conversation header (e.g. \"SUBJECT_L0_INCOMPATIBLE__run0\") as the agent_id.\nProvide a compatibility_score.\nCompatibility is the percentage of your hobbies that the other person also has.\nExplain your score by referencing the specific hobbies discussed.\n",
+      "\n\n\n---------- Conversation with ATTENDEE_02_SUBJECT_L1_COMPATIBLE__run1: ----------\n\n\nHi! Nice to meet you. I\u2019m into yoga, painting, traveling, and journaling. What are some of your hobbies?\nHi! Nice to meet you too \u2014 we already have a lot in common. I\u2019m into yoga, painting, traveling, and journaling as well. I also like reading and trying new coffee shops. What about you, do you have a favorite hobby from that list?\nThat\u2019s great \u2014 we have a perfect match on the main hobbies. If I had to pick a favorite, I\u2019d say traveling, since I love exploring new places and finding inspiration there. Yoga is a close second for me. What kind of places do you like to travel to?\nI love that\u2014traveling is a great favorite, especially when it inspires the other hobbies too. I\u2019m especially drawn to places with a mix of nature and culture, like coastal towns, mountain cities, or places with a strong arts scene. I like destinations where I can wander, journal, and try to capture the atmosphere through painting.\nThat sounds wonderful \u2014 those are exactly the kinds of places I\u2019d enjoy too. Coastal towns and artsy cities are especially appealing, and I love the idea of wandering with a journal or sketching the atmosphere. Sounds like we\u2019d have a lot to talk about."
+    ]
+  },
+  "response": {
+    "agent_id": "ATTENDEE_02_SUBJECT_L1_COMPATIBLE__run1",
+    "compatibility_score": 100,
+    "explanation": "The other person explicitly stated they enjoy all four of my hobbies: yoga, painting, traveling, and journaling. Since they share 4 out of 4 of my hobbies, the compatibility score is 100%."
+  }
+}

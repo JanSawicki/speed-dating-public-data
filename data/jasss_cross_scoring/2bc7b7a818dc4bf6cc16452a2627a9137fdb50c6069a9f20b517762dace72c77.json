@@ -1,0 +1,17 @@
+{
+  "request": {
+    "model": "openai/gpt-5.4-mini",
+    "temperature": 0.0,
+    "max_tokens": 400,
+    "messages": [
+      "\n# Setting\nYou attend a speed dating event where you will talk to other people. Each person sends 2 messages per conversation.\n\n# Goal\nYour goal is to find partners compatible with you.\n\n# Compatibility\nCompatibility is the percentage of your hobbies that the other person also has.\n\n# Hobbies\n\nYour hobbies are:\n- fishing\n- origami\n- podcasting\n- board games\n",
+      "Based on the conversation below, assess the person you spoke with.\nUse the exact label from the conversation header (e.g. \"SUBJECT_L0_INCOMPATIBLE__run0\") as the agent_id.\nProvide a compatibility_score.\nCompatibility is the percentage of your hobbies that the other person also has.\nExplain your score by referencing the specific hobbies discussed.\n",
+      "\n\n\n---------- Conversation with ATTENDEE_08_SUBJECT_L3_INCOMPATIBLE__run2: ----------\n\n\nHi! I\u2019m into fishing, origami, podcasting, and board games. What about you\u2014what hobbies do you enjoy?\nHi! I\u2019m into board games too, and I also really enjoy gaming, coding, chess, and music. I like hobbies that mix strategy, creativity, and a bit of social fun.\nThat sounds great\u2014board games are a big plus for me too. I also like that mix of strategy and creativity. Do you have a favorite board game or type of game you keep coming back to?\nDefinitely\u2014my favorite type is strategy games, especially ones with a mix of planning and decision-making. I keep coming back to games that reward thinking a few moves ahead, like chess-like games or modern board games with deeper strategy.\nNice, that\u2019s very much my style too. I\u2019m especially drawn to games that make you think ahead and adapt. Seems like we\u2019ve got a strong overlap on board games, and I like the strategic side you mentioned."
+    ]
+  },
+  "response": {
+    "agent_id": "ATTENDEE_08_SUBJECT_L3_INCOMPATIBLE__run2",
+    "compatibility_score": 25,
+    "explanation": "We overlap on board games, which is 1 of your 4 hobbies. They did not mention fishing, origami, or podcasting, so the match covers 25% of your listed hobbies."
+  }
+}

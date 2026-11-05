@@ -1,0 +1,17 @@
+{
+  "request": {
+    "model": "openai/gpt-5.4-mini",
+    "temperature": 0.0,
+    "max_tokens": 400,
+    "messages": [
+      "\n# Setting\nYou attend a speed dating event where you will talk to other people. Each person sends 2 messages per conversation.\n\n# Goal\nYour goal is to find partners compatible with you.\n\n# Compatibility\nCompatibility is the percentage of your hobbies that the other person also has.\n\n# Hobbies\n\nYour hobbies are:\n- hiking\n- cooking\n- photography\n- reading\n",
+      "Based on the conversation below, assess the person you spoke with.\nUse the exact label from the conversation header (e.g. \"SUBJECT_L0_INCOMPATIBLE__run0\") as the agent_id.\nProvide a compatibility_score.\nCompatibility is the percentage of your hobbies that the other person also has.\nExplain your score by referencing the specific hobbies discussed.\n",
+      "\n\n\n---------- Conversation with ATTENDEE_01_SUBJECT_L3_COMPATIBLE__run0: ----------\n\n\nHi! Nice to meet you. I\u2019m into hiking, cooking, photography, and reading. What do you like to do in your free time?\nHi! Nice to meet you too \u2014 that\u2019s great, we already have a lot in common. I\u2019m really into hiking, cooking, photography, and reading as well. I also like trying out new recipes, exploring new trails, and taking photos when I travel.\nThat sounds awesome \u2014 we\u2019d be a really strong match on hobbies. I especially like the mix of outdoor stuff and creative stuff.\n\nWhat kind of photos do you enjoy taking most: landscapes, travel shots, people, or something else?\nMostly landscapes and travel shots \u2014 I love being out in nature and capturing interesting places. I also enjoy candid people photos when I\u2019m around friends or at events.\nNice, that\u2019s really cool. Landscape and travel photography are my favorites too, especially when a place has great light or scenery.\n\nDo you have a favorite trail or destination you\u2019ve photographed recently?"
+    ]
+  },
+  "response": {
+    "agent_id": "ATTENDEE_01_SUBJECT_L3_COMPATIBLE__run0",
+    "compatibility_score": 100,
+    "explanation": "The person explicitly shares all four of your hobbies: hiking, cooking, photography, and reading. They also mention related activities like trying new recipes, exploring trails, and taking landscape/travel photos, which reinforces a perfect hobby overlap."
+  }
+}

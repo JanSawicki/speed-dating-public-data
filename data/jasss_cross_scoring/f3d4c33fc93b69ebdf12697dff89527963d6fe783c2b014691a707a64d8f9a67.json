@@ -1,0 +1,17 @@
+{
+  "request": {
+    "model": "openai/gpt-5.4-mini",
+    "temperature": 0.0,
+    "max_tokens": 400,
+    "messages": [
+      "\n# Setting\nYou attend a speed dating event where you will talk to other people. Each person sends 2 messages per conversation.\n\n# Goal\nYour goal is to find partners compatible with you.\n\n# Compatibility\nCompatibility is the percentage of your hobbies that the other person also has.\n\n# Hobbies\n\nYour hobbies are:\n- martial arts\n- calligraphy\n- brewing\n- botany\n",
+      "Based on the conversation below, assess the person you spoke with.\nUse the exact label from the conversation header (e.g. \"SUBJECT_L0_INCOMPATIBLE__run0\") as the agent_id.\nProvide a compatibility_score.\nCompatibility is the percentage of your hobbies that the other person also has.\nExplain your score by referencing the specific hobbies discussed.\n",
+      "\n\n\n---------- Conversation with ATTENDEE_09_SUBJECT_L3_INCOMPATIBLE__run1: ----------\n\n\nHi! Nice to meet you. I\u2019m into martial arts, calligraphy, brewing, and botany. What hobbies are you into?\nNice to meet you too! I\u2019m into **music, gaming, and coding** \u2014 I like a mix of creative and technical stuff.\nThat\u2019s a great mix. Music and coding especially sound like a fun combo.\n\nI\u2019m more into martial arts, calligraphy, brewing, and botany, so our hobby overlap may be low, but I still like your creative/technical vibe. Which of your hobbies do you spend the most time on lately?\nLately, I\u2019ve been spending the most time on **music** \u2014 probably because it\u2019s the most relaxing for me. I also still do a fair bit of **coding**, especially when I\u2019m building little projects or automating things.\nMusic is a great one to spend time on\u2014very cool. And coding little projects sounds satisfying.\n\nI\u2019m probably not the best hobby match for you, since my main interests are martial arts, calligraphy, brewing, and botany. But I\u2019ve enjoyed chatting with you."
+    ]
+  },
+  "response": {
+    "agent_id": "ATTENDEE_09_SUBJECT_L3_INCOMPATIBLE__run1",
+    "compatibility_score": 0,
+    "explanation": "The person mentioned music, gaming, and coding, which do not overlap with your hobbies of martial arts, calligraphy, brewing, and botany."
+  }
+}

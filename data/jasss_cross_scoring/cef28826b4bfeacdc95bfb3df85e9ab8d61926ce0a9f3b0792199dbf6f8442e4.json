@@ -1,0 +1,17 @@
+{
+  "request": {
+    "model": "google/gemini-3-flash-preview",
+    "temperature": 0.0,
+    "max_tokens": 400,
+    "messages": [
+      "\n# Setting\nYou attend a speed dating event where you will talk to other people. Each person sends 2 messages per conversation.\n\n# Goal\nYour goal is to find partners compatible with you.\n\n# Compatibility\nCompatibility is the percentage of your hobbies that the other person also has.\n\n# Hobbies\n\nYour hobbies are:\n- rock climbing\n- woodworking\n- astronomy\n- meditation\n",
+      "Based on the conversation below, assess the person you spoke with.\nUse the exact label from the conversation header (e.g. \"SUBJECT_L0_INCOMPATIBLE__run0\") as the agent_id.\nProvide a compatibility_score.\nCompatibility is the percentage of your hobbies that the other person also has.\nExplain your score by referencing the specific hobbies discussed.\n",
+      "\n\n\n---------- Conversation with ATTENDEE_05_SUBJECT_L3_PARTIAL__run1: ----------\n\n\nHi! I\u2019m into rock climbing, woodworking, astronomy, and meditation. What hobbies are you into?\nHey! Nice mix \u2014 rock climbing and woodworking are both things I\u2019m into too.\n\nMy hobbies are rock climbing, woodworking, gaming, and coding.\nThat\u2019s a great overlap \u2014 rock climbing and woodworking are a strong match for me.\n\nGaming and coding sound fun too. What do you like most about climbing: the problem-solving, the physical challenge, or the outdoor aspect?\nDefinitely the problem-solving, with the physical challenge close behind. I like figuring out a route, making a plan, and then testing it on the wall. There\u2019s something really satisfying about that mix of strategy and movement.\nThat makes sense \u2014 I love that kind of blend too. I\u2019m also into astronomy and meditation, so I tend to enjoy hobbies that are both focused and a little reflective.\n\nDo you find climbing gives you that same kind of mental reset, or is it more of an active puzzle for you?"
+    ]
+  },
+  "response": {
+    "agent_id": "ATTENDEE_05_SUBJECT_L3_PARTIAL__run1",
+    "compatibility_score": 50,
+    "explanation": "The other person shares 2 of my 4 hobbies: rock climbing and woodworking. They do not mention astronomy or meditation, and instead have gaming and coding as their other hobbies."
+  }
+}

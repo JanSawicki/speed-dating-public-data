@@ -1,0 +1,17 @@
+{
+  "request": {
+    "model": "openai/gpt-5.4-mini",
+    "temperature": 0.0,
+    "max_tokens": 400,
+    "messages": [
+      "\n# Setting\nYou attend a speed dating event where you will talk to other people. Each person sends 2 messages per conversation.\n\n# Goal\nYour goal is to find partners compatible with you.\n\n# Compatibility\nCompatibility is the percentage of your hobbies that the other person also has.\n\n# Hobbies\n\nYour hobbies are:\n- swimming\n- baking\n- dancing\n- writing\n",
+      "Based on the conversation below, assess the person you spoke with.\nUse the exact label from the conversation header (e.g. \"SUBJECT_L0_INCOMPATIBLE__run0\") as the agent_id.\nProvide a compatibility_score.\nCompatibility is the percentage of your hobbies that the other person also has.\nExplain your score by referencing the specific hobbies discussed.\n",
+      "\n\n\n---------- Conversation with ATTENDEE_04_SUBJECT_L1_COMPATIBLE__run2: ----------\n\n\nHi! I\u2019m glad we get to chat. I\u2019m into swimming, baking, dancing, and writing. What kinds of hobbies do you enjoy?\nHi! Nice to meet you \u2014 we share all four hobbies, which is a great match.\n\nI enjoy swimming, baking, dancing, and writing too. What kind of writing do you like best?\nThat\u2019s awesome \u2014 a perfect match! I most enjoy creative writing, especially short stories and little reflective pieces. How about you?\nI like creative writing too, especially short stories and reflective pieces. That sounds like we\u2019d get along really well \u2014 especially if we could swap stories and maybe even bake something while chatting.\nThat sounds wonderful \u2014 I\u2019d love that. Swapping stories over something homemade is basically ideal. Since we\u2019re such a good match, I\u2019d definitely like to keep chatting."
+    ]
+  },
+  "response": {
+    "agent_id": "ATTENDEE_04_SUBJECT_L1_COMPATIBLE__run2",
+    "compatibility_score": 100,
+    "explanation": "The person explicitly shares all four of your hobbies: swimming, baking, dancing, and writing. They also specifically mentioned enjoying creative writing, including short stories and reflective pieces, which aligns well with your writing hobby."
+  }
+}

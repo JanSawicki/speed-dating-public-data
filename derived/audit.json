@@ -1,0 +1,24 @@
+{
+  "records": 1080,
+  "models": [
+    {
+      "model": "google/gemini-3-flash-preview",
+      "exact_request_score_matches": 360,
+      "reported_label_mismatches": 0,
+      "wrong_condition_labels": 0
+    },
+    {
+      "model": "openai/gpt-5.4-mini",
+      "exact_request_score_matches": 360,
+      "reported_label_mismatches": 0,
+      "wrong_condition_labels": 0
+    },
+    {
+      "model": "anthropic/claude-3-haiku",
+      "exact_request_score_matches": 360,
+      "reported_label_mismatches": 140,
+      "wrong_condition_labels": 4
+    }
+  ],
+  "aggregate_claim_counts_verified": true
+}

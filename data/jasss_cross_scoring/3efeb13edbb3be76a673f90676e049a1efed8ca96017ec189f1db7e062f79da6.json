@@ -1,0 +1,17 @@
+{
+  "request": {
+    "model": "google/gemini-3-flash-preview",
+    "temperature": 0.0,
+    "max_tokens": 400,
+    "messages": [
+      "\n# Setting\nYou attend a speed dating event where you will talk to other people. Each person sends 2 messages per conversation.\n\n# Goal\nYour goal is to find partners compatible with you.\n\n# Compatibility\nCompatibility is the percentage of your hobbies that the other person also has.\n\n# Hobbies\n\nYour hobbies are:\n- yoga\n- painting\n- traveling\n- journaling\n",
+      "Based on the conversation below, assess the person you spoke with.\nUse the exact label from the conversation header (e.g. \"SUBJECT_L0_INCOMPATIBLE__run0\") as the agent_id.\nProvide a compatibility_score.\nCompatibility is the percentage of your hobbies that the other person also has.\nExplain your score by referencing the specific hobbies discussed.\n",
+      "\n\n\n---------- Conversation with ATTENDEE_02_SUBJECT_L1_INCOMPATIBLE__run2: ----------\n\n\nHi! Nice to meet you. I\u2019m into yoga, painting, traveling, and journaling. What are some of your hobbies?\nNice to meet you too! My hobbies are:\n\n- gaming\n- coding\n- chess\n- music\n\nSounds like you have a really creative and thoughtful set of hobbies. Which of those do you enjoy most?\nNice meeting you! I\u2019d say traveling is probably my favorite, with painting and journaling close behind. I like a mix of getting out into new places and having quieter creative time.\n\nGaming, coding, chess, and music sound great too \u2014 especially chess and music. Do you have a favorite game or kind of music?\nDefinitely \u2014 I\u2019m pretty drawn to strategy games, especially ones with a lot of planning and problem-solving. For music, I tend to like a mix, but I especially enjoy instrumental, electronic, and anything with a really strong melody.\n\nIt sounds like we both like a balance of creativity and mental challenge.\nAbsolutely, that balance is appealing. I can definitely appreciate the planning and problem-solving side of strategy games, and I\u2019m also a fan of music that feels immersive or expressive.\n\nIt seems like we share that reflective, creative vibe even if our hobbies don\u2019t overlap exactly."
+    ]
+  },
+  "response": {
+    "agent_id": "ATTENDEE_02_SUBJECT_L1_INCOMPATIBLE__run2",
+    "compatibility_score": 0,
+    "explanation": "The other person's hobbies are gaming, coding, chess, and music. None of these overlap with my hobbies of yoga, painting, traveling, and journaling."
+  }
+}

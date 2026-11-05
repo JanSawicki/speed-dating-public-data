@@ -1,0 +1,17 @@
+{
+  "request": {
+    "model": "openai/gpt-5.4-mini",
+    "temperature": 0.0,
+    "max_tokens": 400,
+    "messages": [
+      "\n# Setting\nYou attend a speed dating event where you will talk to other people. Each person sends 2 messages per conversation.\n\n# Goal\nYour goal is to find partners compatible with you.\n\n# Compatibility\nCompatibility is the percentage of your hobbies that the other person also has.\n\n# Hobbies\n\nYour hobbies are:\n- cycling\n- gardening\n- birdwatching\n- pottery\n",
+      "Based on the conversation below, assess the person you spoke with.\nUse the exact label from the conversation header (e.g. \"SUBJECT_L0_INCOMPATIBLE__run0\") as the agent_id.\nProvide a compatibility_score.\nCompatibility is the percentage of your hobbies that the other person also has.\nExplain your score by referencing the specific hobbies discussed.\n",
+      "\n\n\n---------- Conversation with ATTENDEE_03_SUBJECT_L2_PARTIAL__run2: ----------\n\n\nHi! I\u2019m glad we matched. I\u2019m into cycling, gardening, birdwatching, and pottery. What hobbies are you into?\nHey! Nice to meet you \u2014 we\u2019ve got cycling and gardening in common, which is a great start. I\u2019m also into gaming and coding.  \n\nBirdwatching and pottery sound really interesting too \u2014 what do you like most about them?\nBirdwatching is my favorite for how peaceful and observant it feels \u2014 I like noticing little details in nature that I\u2019d otherwise miss. Pottery is great because it\u2019s both creative and hands-on, and I love making something useful from scratch. What kind of gaming do you like?\nThat sounds really lovely \u2014 I can see why you\u2019d enjoy both. I\u2019m into gaming that mixes strategy and creativity, especially games where you can build, solve problems, or explore at your own pace.  \n\nDo you prefer cozy games, competitive ones, or more creative sandbox-style games?\nI\u2019d say cozy and creative sandbox-style games are my favorite. I like relaxing games where you can build, experiment, and just get absorbed in the world. What about you\u2014do you lean more toward strategy, story, or something else?"
+    ]
+  },
+  "response": {
+    "agent_id": "ATTENDEE_03_SUBJECT_L2_PARTIAL__run2",
+    "compatibility_score": 50,
+    "explanation": "You share 2 of my 4 hobbies: cycling and gardening. You did not mention birdwatching or pottery, and instead listed gaming and coding, so the overlap is half of my hobby set."
+  }
+}

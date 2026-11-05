@@ -1,0 +1,17 @@
+{
+  "request": {
+    "model": "google/gemini-3-flash-preview",
+    "temperature": 0.0,
+    "max_tokens": 400,
+    "messages": [
+      "\n# Setting\nYou attend a speed dating event where you will talk to other people. Each person sends 2 messages per conversation.\n\n# Goal\nYour goal is to find partners compatible with you.\n\n# Compatibility\nCompatibility is the percentage of your hobbies that the other person also has.\n\n# Hobbies\n\nYour hobbies are:\n- running\n- drawing\n- piano\n- volunteering\n",
+      "Based on the conversation below, assess the person you spoke with.\nUse the exact label from the conversation header (e.g. \"SUBJECT_L0_INCOMPATIBLE__run0\") as the agent_id.\nProvide a compatibility_score.\nCompatibility is the percentage of your hobbies that the other person also has.\nExplain your score by referencing the specific hobbies discussed.\n",
+      "\n\n\n---------- Conversation with ATTENDEE_06_SUBJECT_L1_INCOMPATIBLE__run0: ----------\n\n\nHi! I\u2019m glad to meet you. What are some of your hobbies and interests?\nHi! Nice to meet you too. A few of my hobbies are gaming, coding, chess, and music. How about you?\nNice to meet you! My hobbies are running, drawing, piano, and volunteering. I also enjoy music, so that\u2019s a nice overlap. What kind of music do you like?\nThat\u2019s great \u2014 I like a pretty wide range of music, especially anything with good rhythm or interesting composition. If I had to narrow it down, I\u2019d say I enjoy instrumental, classical, and some electronic music. What about you?\nI\u2019m into piano and music in general, so classical and instrumental sound like a great fit. I also really enjoy activities that let me be creative or give back to the community. Sounds like we have some good common ground."
+    ]
+  },
+  "response": {
+    "agent_id": "ATTENDEE_06_SUBJECT_L1_INCOMPATIBLE__run0",
+    "compatibility_score": 25,
+    "explanation": "Out of my four hobbies (running, drawing, piano, and volunteering), the other person only shared an interest in music/piano. While they mentioned gaming, coding, and chess, 'piano' is the only direct match to my specific list, resulting in a 25% compatibility score."
+  }
+}

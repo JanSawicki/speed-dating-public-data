@@ -1,0 +1,17 @@
+{
+  "request": {
+    "model": "google/gemini-3-flash-preview",
+    "temperature": 0.0,
+    "max_tokens": 400,
+    "messages": [
+      "\n# Setting\nYou attend a speed dating event where you will talk to other people. Each person sends 2 messages per conversation.\n\n# Goal\nYour goal is to find partners compatible with you.\n\n# Compatibility\nCompatibility is the percentage of your hobbies that the other person also has.\n\n# Hobbies\n\nYour hobbies are:\n- cycling\n- gardening\n- birdwatching\n- pottery\n",
+      "Based on the conversation below, assess the person you spoke with.\nUse the exact label from the conversation header (e.g. \"SUBJECT_L0_INCOMPATIBLE__run0\") as the agent_id.\nProvide a compatibility_score.\nCompatibility is the percentage of your hobbies that the other person also has.\nExplain your score by referencing the specific hobbies discussed.\n",
+      "\n\n\n---------- Conversation with ATTENDEE_03_SUBJECT_L0_INCOMPATIBLE__run2: ----------\n\n\nOkay, let's start a conversation with another participant at the speed dating event.\n\n*approaches another participant*\n\nHi there! My name is [Assistant's name]. It's nice to meet you. So, what are some of your hobbies?\n*smiles* Hi there! My name is [Assistant's name] as well. It's great to meet you. Well, some of my hobbies include reading, hiking, and painting. What about you? What kind of things do you enjoy doing in your free time?\n*smiles* That's wonderful, we seem to have a few things in common! I really enjoy reading as well, it's such a great way to relax and explore new worlds. And hiking is fantastic, being out in nature is so rejuvenating. As for me, some of my hobbies include cycling, gardening, birdwatching, and pottery. I find those activities to be very fulfilling and a great way to unwind.\n*nods enthusiastically* That's so great that we both enjoy reading and being outdoors! Cycling, gardening, and birdwatching sound like wonderful hobbies. I can imagine how peaceful and rewarding it must be to connect with nature in that way. And pottery - that's so cool! I've always been fascinated by the creative process of working with clay. Do you find it to be a relaxing and meditative activity?\n*smiles* Yes, absolutely! Pottery is such a calming and centering hobby for me. There's something so grounding about working with your hands to shape the clay and bring a vision to life. The whole process, from centering the clay on the wheel to glazing the finished piece, is just so satisfying. And I love how it allows me to tap into my creative side. Do you have any experience with art or creative hobbies yourself?"
+    ]
+  },
+  "response": {
+    "agent_id": "ATTENDEE_03_SUBJECT_L0_INCOMPATIBLE__run2",
+    "compatibility_score": 0,
+    "explanation": "ATTENDEE_03 mentioned their hobbies are reading, hiking, and painting. None of these match my hobbies (cycling, gardening, birdwatching, and pottery). Although they expressed interest in my hobbies, they do not share them."
+  }
+}

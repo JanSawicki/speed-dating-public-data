@@ -1,0 +1,17 @@
+{
+  "request": {
+    "model": "openai/gpt-5.4-mini",
+    "temperature": 0.0,
+    "max_tokens": 400,
+    "messages": [
+      "\n# Setting\nYou attend a speed dating event where you will talk to other people. Each person sends 2 messages per conversation.\n\n# Goal\nYour goal is to find partners compatible with you.\n\n# Compatibility\nCompatibility is the percentage of your hobbies that the other person also has.\n\n# Hobbies\n\nYour hobbies are:\n- swimming\n- baking\n- dancing\n- writing\n",
+      "Based on the conversation below, assess the person you spoke with.\nUse the exact label from the conversation header (e.g. \"SUBJECT_L0_INCOMPATIBLE__run0\") as the agent_id.\nProvide a compatibility_score.\nCompatibility is the percentage of your hobbies that the other person also has.\nExplain your score by referencing the specific hobbies discussed.\n",
+      "\n\n\n---------- Conversation with ATTENDEE_04_SUBJECT_L1_PARTIAL__run2: ----------\n\n\nHi! I\u2019m glad we get to chat. I\u2019m into swimming, baking, dancing, and writing. What kinds of hobbies do you enjoy?\nHi! Nice to meet you too \u2014 we already have a few things in common. I\u2019m into swimming, baking, gaming, and coding. \n\nSwimming and baking especially sound like a great overlap with you. What kind of writing do you enjoy?\nI enjoy a mix of creative writing and journaling, and sometimes short stories when I\u2019m feeling inspired. I like how writing can be both expressive and reflective. \n\nGaming and coding sound interesting too \u2014 what kinds of games do you usually play, and what do you like to code?\nThat\u2019s really cool \u2014 I like that you use writing both creatively and for reflection.\n\nFor games, I usually enjoy puzzle games and strategy games, plus the occasional casual multiplayer game with friends. For coding, I like building small apps and automation scripts, and sometimes working on fun little projects just to learn something new.\n\nIt sounds like we share swimming and baking, and I also like your creative side.\nThat sounds great \u2014 I like puzzle and strategy games too, and building small projects sounds really satisfying. And yes, swimming and baking are definitely nice overlaps for us, plus I appreciate your creative side as well.\n\nWould you want to keep chatting and maybe compare favorite swimming spots or favorite things to bake?"
+    ]
+  },
+  "response": {
+    "agent_id": "ATTENDEE_04_SUBJECT_L1_PARTIAL__run2",
+    "compatibility_score": 75,
+    "explanation": "We share swimming, baking, and writing, which matches 3 of your 4 hobbies. They also mentioned dancing as a shared interest? No \u2014 they did not mention dancing, and instead brought up gaming and coding. So the overlap is swimming, baking, and writing, with no evidence of dancing."
+  }
+}

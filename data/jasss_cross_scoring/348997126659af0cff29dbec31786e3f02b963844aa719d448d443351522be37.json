@@ -1,0 +1,17 @@
+{
+  "request": {
+    "model": "google/gemini-3-flash-preview",
+    "temperature": 0.0,
+    "max_tokens": 400,
+    "messages": [
+      "\n# Setting\nYou attend a speed dating event where you will talk to other people. Each person sends 2 messages per conversation.\n\n# Goal\nYour goal is to find partners compatible with you.\n\n# Compatibility\nCompatibility is the percentage of your hobbies that the other person also has.\n\n# Hobbies\n\nYour hobbies are:\n- fishing\n- origami\n- podcasting\n- board games\n",
+      "Based on the conversation below, assess the person you spoke with.\nUse the exact label from the conversation header (e.g. \"SUBJECT_L0_INCOMPATIBLE__run0\") as the agent_id.\nProvide a compatibility_score.\nCompatibility is the percentage of your hobbies that the other person also has.\nExplain your score by referencing the specific hobbies discussed.\n",
+      "\n\n\n---------- Conversation with ATTENDEE_08_SUBJECT_L0_PARTIAL__run2: ----------\n\n\nHi! I\u2019m into fishing, origami, podcasting, and board games. What about you\u2014what hobbies do you enjoy?\nHi! Nice to meet you \u2014 I\u2019m into fishing, origami, gaming, and coding. Sounds like we already share fishing and origami, which is a great start.\n\nPodcasting sounds interesting too \u2014 what kind of topics do you like to talk about on your podcast?\nNice to meet you too! I like podcasting about a mix of everyday life, interesting stories, and sometimes hobbies like games or creative projects. It\u2019s fun when conversations go in unexpected directions.\n\nGaming and coding sound awesome, too. What kind of games do you like, and what do you usually code?\nThat sounds really fun \u2014 I like conversational podcasts like that.\n\nFor games, I\u2019m into a mix of strategy and casual games, especially ones I can play with friends. For coding, I usually like building small projects and tools, and sometimes experimenting with whatever idea sounds interesting at the moment.\n\nYou seem like someone who enjoys creative, flexible hobbies.\nThat does sound like a great mix \u2014 especially strategy games and little experimental coding projects. I definitely like hobbies where I can try new ideas and stay creative.\n\nIt sounds like we already have a strong overlap with fishing and origami, and I\u2019m glad we found some shared energy around gaming and creative projects too."
+    ]
+  },
+  "response": {
+    "agent_id": "ATTENDEE_08_SUBJECT_L0_PARTIAL__run2",
+    "compatibility_score": 50,
+    "explanation": "The other person shares 2 out of my 4 hobbies: fishing and origami. They mentioned gaming and coding, which do not match my other hobbies of podcasting and board games (though they mentioned 'gaming', it was not specified as board games)."
+  }
+}

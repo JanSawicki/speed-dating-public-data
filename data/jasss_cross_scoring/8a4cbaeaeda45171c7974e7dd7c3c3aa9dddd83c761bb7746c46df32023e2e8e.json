@@ -1,0 +1,17 @@
+{
+  "request": {
+    "model": "openai/gpt-5.4-mini",
+    "temperature": 0.0,
+    "max_tokens": 400,
+    "messages": [
+      "\n# Setting\nYou attend a speed dating event where you will talk to other people. Each person sends 2 messages per conversation.\n\n# Goal\nYour goal is to find partners compatible with you.\n\n# Compatibility\nCompatibility is the percentage of your hobbies that the other person also has.\n\n# Hobbies\n\nYour hobbies are:\n- skiing\n- ceramics\n- film\n- language learning\n",
+      "Based on the conversation below, assess the person you spoke with.\nUse the exact label from the conversation header (e.g. \"SUBJECT_L0_INCOMPATIBLE__run0\") as the agent_id.\nProvide a compatibility_score.\nCompatibility is the percentage of your hobbies that the other person also has.\nExplain your score by referencing the specific hobbies discussed.\n",
+      "\n\n\n---------- Conversation with ATTENDEE_07_SUBJECT_L0_PARTIAL__run1: ----------\n\n\nHi! Nice to meet you \u2014 I\u2019m into skiing, ceramics, film, and language learning. What are some of your hobbies?\nHi! Nice to meet you too \u2014 I\u2019m into skiing, ceramics, gaming, and coding.\n\nLooks like we already share skiing and ceramics, so that\u2019s a great start. I also like hobbies that mix creativity and problem-solving. What do you enjoy most about skiing or ceramics?\nThat\u2019s a great mix \u2014 sounds like we\u2019d have a solid overlap. I like skiing because it\u2019s equal parts adrenaline and being outdoors, and ceramics because it\u2019s hands-on and a little meditative.\n\nWhat kind of gaming and coding do you enjoy most?\nI\u2019m mostly into strategy and puzzle games \u2014 anything that makes me think a few steps ahead. For coding, I like building projects that solve a real problem or automate something annoying.\n\nIt\u2019s cool that you like both adrenaline and a meditative hobby. What kind of ski terrain do you enjoy most?\nI\u2019m usually happiest on groomed runs and a few fun blues, but I like the occasional challenge too. The mix of flow and control is what I enjoy most.\n\nStrategy and puzzle games sound right up my alley. Do you have a favorite game or coding project you\u2019ve worked on recently?"
+    ]
+  },
+  "response": {
+    "agent_id": "ATTENDEE_07_SUBJECT_L0_PARTIAL__run1",
+    "compatibility_score": 50,
+    "explanation": "We share 2 of your 4 hobbies: skiing and ceramics. They also mentioned gaming and coding, while your other hobbies are film and language learning, which weren\u2019t discussed. So the overlap is partial but solid."
+  }
+}

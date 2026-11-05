@@ -1,0 +1,17 @@
+{
+  "request": {
+    "model": "google/gemini-3-flash-preview",
+    "temperature": 0.0,
+    "max_tokens": 400,
+    "messages": [
+      "\n# Setting\nYou attend a speed dating event where you will talk to other people. Each person sends 2 messages per conversation.\n\n# Goal\nYour goal is to find partners compatible with you.\n\n# Compatibility\nCompatibility is the percentage of your hobbies that the other person also has.\n\n# Hobbies\n\nYour hobbies are:\n- running\n- drawing\n- piano\n- volunteering\n",
+      "Based on the conversation below, assess the person you spoke with.\nUse the exact label from the conversation header (e.g. \"SUBJECT_L0_INCOMPATIBLE__run0\") as the agent_id.\nProvide a compatibility_score.\nCompatibility is the percentage of your hobbies that the other person also has.\nExplain your score by referencing the specific hobbies discussed.\n",
+      "\n\n\n---------- Conversation with ATTENDEE_06_SUBJECT_L2_COMPATIBLE__run0: ----------\n\n\n*smiles and approaches another participant* Hello, my name is [Assistant's name]. It's nice to meet you! What brings you here to the speed dating event today?\n*smiles warmly* Hello! I'm so glad to meet you. I'm here today because I'm really excited to connect with new people and hopefully find some great connections. What about you - what made you decide to come to the speed dating event?\n*nods enthusiastically* That's wonderful, I'm so glad to hear you're excited about meeting new people! As for me, I've been wanting to put myself out there and try something new. I really enjoy connecting with others and learning about their interests and passions. Do you mind sharing a bit about what you like to do for fun?\n*eyes light up* Oh, I absolutely love talking about my hobbies! Some of my favorite things to do are running, drawing, playing the piano, and volunteering. I find such joy in keeping active through running, expressing my creativity through art, and giving back to my community through volunteering. What about you - do any of those hobbies sound like things you enjoy as well? I'd love to hear more about what you like to do for fun!\n*smiles brightly* That's wonderful, we seem to have quite a few hobbies in common! I also really enjoy running, it's such a great way to stay active and clear my mind. And I love the creative outlet of drawing - there's something so calming and fulfilling about putting pencil to paper. I play the piano as well, it's such a beautiful and expressive instrument. And volunteering is so important, it's great that you make time for that. \n\nI'd say my top hobbies are running, drawing, piano, and cooking. I find so much joy in experimenting with new recipes and sharing meals with loved ones. Do you have a favorite type of cuisine or dish you like to make? I'd be curious to hear more about your culinary interests as well!"
+    ]
+  },
+  "response": {
+    "agent_id": "ATTENDEE_06_SUBJECT_L2_COMPATIBLE__run0",
+    "compatibility_score": 75,
+    "explanation": "The other person shares 3 out of my 4 hobbies: running, drawing, and piano. They did not mention volunteering, but they did mention cooking, which is not one of my hobbies."
+  }
+}

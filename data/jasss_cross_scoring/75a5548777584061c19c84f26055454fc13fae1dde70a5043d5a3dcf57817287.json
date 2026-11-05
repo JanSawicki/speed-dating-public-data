@@ -1,0 +1,17 @@
+{
+  "request": {
+    "model": "openai/gpt-5.4-mini",
+    "temperature": 0.0,
+    "max_tokens": 400,
+    "messages": [
+      "\n# Setting\nYou attend a speed dating event where you will talk to other people. Each person sends 2 messages per conversation.\n\n# Goal\nYour goal is to find partners compatible with you.\n\n# Compatibility\nCompatibility is the percentage of your hobbies that the other person also has.\n\n# Hobbies\n\nYour hobbies are:\n- weightlifting\n- scrapbooking\n- stargazing\n- sketching\n",
+      "Based on the conversation below, assess the person you spoke with.\nUse the exact label from the conversation header (e.g. \"SUBJECT_L0_INCOMPATIBLE__run0\") as the agent_id.\nProvide a compatibility_score.\nCompatibility is the percentage of your hobbies that the other person also has.\nExplain your score by referencing the specific hobbies discussed.\n",
+      "\n\n\n---------- Conversation with ATTENDEE_10_SUBJECT_L3_PARTIAL__run1: ----------\n\n\nHi! Nice to meet you. What are some of your hobbies?\nNice to meet you too! I\u2019m into a few things: gaming, coding, and weightlifting. I also enjoy scrapbooking from time to time. What about you?\nThat\u2019s a cool mix \u2014 especially weightlifting and scrapbooking.\n\nMy hobbies are:\n- weightlifting\n- scrapbooking\n- stargazing\n- sketching\n\nSounds like we already have a couple things in common. What kind of gaming are you into?\nMostly PC games, especially strategy games and a bit of RPGs. I also like games that are competitive or have a good co-op element.\nNice \u2014 strategy and co-op are both great. I tend to like creative and outdoor stuff too, like sketching and stargazing.\n\nWe\u2019ve got at least weightlifting and scrapbooking in common, so that\u2019s a solid start. What do you like most about weightlifting?"
+    ]
+  },
+  "response": {
+    "agent_id": "ATTENDEE_10_SUBJECT_L3_PARTIAL__run1",
+    "compatibility_score": 50,
+    "explanation": "They explicitly share 2 of your 4 hobbies: weightlifting and scrapbooking. They did not mention stargazing or sketching, so the overlap is half of your hobby list."
+  }
+}

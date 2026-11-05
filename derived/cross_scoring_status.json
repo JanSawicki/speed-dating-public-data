@@ -1,0 +1,366 @@
+{
+  "expected": 324,
+  "complete": 252,
+  "failures": [
+    {
+      "id": "0c3400c33132",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "674f53440aef",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "51973a311b0d",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "bf163e49de76",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "e918b79481be",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "a5e09a13189d",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "ec28aa086b55",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "b4ee05b4add7",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "b26c140181cb",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "e0e289425dab",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "e4e2457509b0",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "ad9b1e9ac5b5",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "8993167899e8",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "6e16f449791b",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "49b78390841c",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "28592b7a354f",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "14661d19dc54",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "3aa9ff7913b6",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "73a569b1e286",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "47d80b2dbd99",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "f71c80e719c0",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "03762c4204c6",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "f11ae7210eb9",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "1c694c1b1ddb",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "ddf6e3a116e0",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "d6645b7779e5",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "1dd80a563b0b",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "51b58cea8ab3",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "180333e29b61",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "6cf1235d8687",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "016b363fb5f4",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "c57f51a4c79c",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "1d53dea30a95",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "a814425740bb",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "429e45acc6ec",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "884a6e9082df",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "7fcf6cfd65dd",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "c74dd8c204db",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "97cb3081b613",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "4f53f2a2087c",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "7f1622af1966",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "74b966eb8e70",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "f3138d1586b0",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "c6c7d7136c95",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "12af865eeadb",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "7173baeed974",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "9bd6b6b6f888",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "605ad1582331",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "87b7cc71fc21",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "ba9d11724358",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "85345d669141",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "1fb3ca46ff3b",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "d920ab5b8a9f",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "d7e606bf7eff",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "118a8360eea2",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "5f2bf76edde0",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "cde5fe7db07b",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "94cd87f88024",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "59dab3d8f068",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "5f539c88b6a1",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "37c1972c9f90",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "f77dc0191294",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "2c32b84afd26",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "c70df1104e6f",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "079b4aabe6b2",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "f83fff67a29a",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "36a70e469c60",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "46ef82877d9c",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "cca0f9ec8bc4",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "ffa4d56c7474",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "6fdd70a10ddb",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    },
+    {
+      "id": "5654f258b961",
+      "scorer": "anthropic/claude-3-haiku",
+      "error_type": "NotFoundResponseError"
+    }
+  ]
+}

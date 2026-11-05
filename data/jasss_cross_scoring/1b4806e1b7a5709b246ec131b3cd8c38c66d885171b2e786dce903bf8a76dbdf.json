@@ -1,0 +1,17 @@
+{
+  "request": {
+    "model": "openai/gpt-5.4-mini",
+    "temperature": 0.0,
+    "max_tokens": 400,
+    "messages": [
+      "\n# Setting\nYou attend a speed dating event where you will talk to other people. Each person sends 2 messages per conversation.\n\n# Goal\nYour goal is to find partners compatible with you.\n\n# Compatibility\nCompatibility is the percentage of your hobbies that the other person also has.\n\n# Hobbies\n\nYour hobbies are:\n- skiing\n- ceramics\n- film\n- language learning\n",
+      "Based on the conversation below, assess the person you spoke with.\nUse the exact label from the conversation header (e.g. \"SUBJECT_L0_INCOMPATIBLE__run0\") as the agent_id.\nProvide a compatibility_score.\nCompatibility is the percentage of your hobbies that the other person also has.\nExplain your score by referencing the specific hobbies discussed.\n",
+      "\n\n\n---------- Conversation with ATTENDEE_07_SUBJECT_L2_INCOMPATIBLE__run2: ----------\n\n\nHi! Nice to meet you. I\u2019m into skiing, ceramics, film, and language learning. What are some of your hobbies?\nNice to meet you too! I\u2019m into gaming, coding, chess, and music. I really like things that involve strategy, creativity, and learning new systems.\n\nFilm and language learning sound especially interesting to me. What kind of films do you like?\nI\u2019m into a mix of indie films, sci-fi, and thought-provoking dramas\u2014especially ones with strong visuals or clever storytelling. I also enjoy foreign films since they tie into my language learning interest.\n\nYour mix of gaming, coding, chess, and music sounds great\u2014lots of strategy and creativity there. Do you have a favorite game or composer?\nDefinitely\u2014those are very much my kind of films too, especially sci-fi and clever storytelling.\n\nFor games, I\u2019m really into strategy games and puzzle games, and I also like anything with good world-building. For music, I enjoy a mix, but I especially like composers who do atmospheric or emotionally rich work. Do you have a favorite indie film or a language you\u2019re focusing on?\nI\u2019m especially drawn to films that feel visually distinctive and a bit introspective\u2014some favorites are *Moonlight*, *Parasite*, and *Her*. For language learning, I\u2019m currently most interested in Japanese, though I like the challenge of picking up phrases in different languages while traveling too.\n\nWhat about you\u2014any strategy or puzzle games you\u2019d recommend, or any composers you especially like?"
+    ]
+  },
+  "response": {
+    "agent_id": "ATTENDEE_07_SUBJECT_L2_INCOMPATIBLE__run2",
+    "compatibility_score": 50,
+    "explanation": "We share 2 of my 4 hobbies: skiing and language learning. They also showed interest in film, especially indie, sci-fi, and foreign films, which overlaps with my film hobby. I didn\u2019t see any overlap with ceramics, so the match is partial rather than full."
+  }
+}

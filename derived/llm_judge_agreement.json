@@ -1,0 +1,196 @@
+{
+  "description": "Symmetric agreement between each participant model used as its own claim coder and external Llama 3.3 70B; excludes six malformed participant-model checklists. External judge is not ground truth.",
+  "malformed_excluded": 6,
+  "malformed_records": [
+    {
+      "model": "google/gemini-3-flash-preview",
+      "conversation": "ATTENDEE_09_SUBJECT_L1_PARTIAL__run2",
+      "which": "self"
+    },
+    {
+      "model": "openai/gpt-5.4-mini",
+      "conversation": "ATTENDEE_01_SUBJECT_L2_COMPATIBLE__run0",
+      "which": "self"
+    },
+    {
+      "model": "anthropic/claude-3-haiku",
+      "conversation": "ATTENDEE_01_SUBJECT_L3_PARTIAL__run0",
+      "which": "self"
+    },
+    {
+      "model": "anthropic/claude-3-haiku",
+      "conversation": "ATTENDEE_04_SUBJECT_L1_PARTIAL__run2",
+      "which": "self"
+    },
+    {
+      "model": "anthropic/claude-3-haiku",
+      "conversation": "ATTENDEE_09_SUBJECT_L0_PARTIAL__run1",
+      "which": "self"
+    },
+    {
+      "model": "anthropic/claude-3-haiku",
+      "conversation": "ATTENDEE_09_SUBJECT_L3_PARTIAL__run1",
+      "which": "self"
+    }
+  ],
+  "results": [
+    {
+      "model": "google/gemini-3-flash-preview",
+      "tier": "COMPATIBLE",
+      "n": 0,
+      "positive_external": 0,
+      "positive_self": 0,
+      "agreement": NaN,
+      "cohen_kappa": NaN,
+      "jaccard": 1.0
+    },
+    {
+      "model": "google/gemini-3-flash-preview",
+      "tier": "PARTIAL",
+      "n": 238,
+      "positive_external": 25,
+      "positive_self": 28,
+      "agreement": 0.9453781512605042,
+      "cohen_kappa": 0.724094881398252,
+      "jaccard": 0.6060606060606061
+    },
+    {
+      "model": "google/gemini-3-flash-preview",
+      "tier": "INCOMPATIBLE",
+      "n": 480,
+      "positive_external": 147,
+      "positive_self": 152,
+      "agreement": 0.9770833333333333,
+      "cohen_kappa": 0.9465760077707625,
+      "jaccard": 0.9290322580645162
+    },
+    {
+      "model": "google/gemini-3-flash-preview",
+      "tier": "ALL",
+      "n": 718,
+      "positive_external": 172,
+      "positive_self": 180,
+      "agreement": 0.9665738161559888,
+      "cohen_kappa": 0.9096931074962266,
+      "jaccard": 0.8723404255319149
+    },
+    {
+      "model": "openai/gpt-5.4-mini",
+      "tier": "COMPATIBLE",
+      "n": 0,
+      "positive_external": 0,
+      "positive_self": 0,
+      "agreement": NaN,
+      "cohen_kappa": NaN,
+      "jaccard": 1.0
+    },
+    {
+      "model": "openai/gpt-5.4-mini",
+      "tier": "PARTIAL",
+      "n": 240,
+      "positive_external": 5,
+      "positive_self": 5,
+      "agreement": 0.975,
+      "cohen_kappa": 0.38723404255319166,
+      "jaccard": 0.25
+    },
+    {
+      "model": "openai/gpt-5.4-mini",
+      "tier": "INCOMPATIBLE",
+      "n": 480,
+      "positive_external": 25,
+      "positive_self": 28,
+      "agreement": 0.96875,
+      "cohen_kappa": 0.7004991680532445,
+      "jaccard": 0.5588235294117647
+    },
+    {
+      "model": "openai/gpt-5.4-mini",
+      "tier": "ALL",
+      "n": 720,
+      "positive_external": 30,
+      "positive_self": 33,
+      "agreement": 0.9708333333333333,
+      "cohen_kappa": 0.6514522821576761,
+      "jaccard": 0.5
+    },
+    {
+      "model": "anthropic/claude-3-haiku",
+      "tier": "COMPATIBLE",
+      "n": 0,
+      "positive_external": 0,
+      "positive_self": 0,
+      "agreement": NaN,
+      "cohen_kappa": NaN,
+      "jaccard": 1.0
+    },
+    {
+      "model": "anthropic/claude-3-haiku",
+      "tier": "PARTIAL",
+      "n": 232,
+      "positive_external": 44,
+      "positive_self": 68,
+      "agreement": 0.7844827586206896,
+      "cohen_kappa": 0.42,
+      "jaccard": 0.38271604938271603
+    },
+    {
+      "model": "anthropic/claude-3-haiku",
+      "tier": "INCOMPATIBLE",
+      "n": 480,
+      "positive_external": 73,
+      "positive_self": 120,
+      "agreement": 0.8770833333333333,
+      "cohen_kappa": 0.6230031948881789,
+      "jaccard": 0.5317460317460317
+    },
+    {
+      "model": "anthropic/claude-3-haiku",
+      "tier": "ALL",
+      "n": 712,
+      "positive_external": 117,
+      "positive_self": 188,
+      "agreement": 0.8469101123595506,
+      "cohen_kappa": 0.5518340571006192,
+      "jaccard": 0.47342995169082125
+    }
+  ],
+  "pooled": [
+    {
+      "model": "ALL_MODELS",
+      "tier": "COMPATIBLE",
+      "n": 0,
+      "positive_external": 0,
+      "positive_self": 0,
+      "agreement": null,
+      "cohen_kappa": null
+    },
+    {
+      "model": "ALL_MODELS",
+      "tier": "PARTIAL",
+      "n": 710,
+      "positive_external": 74,
+      "positive_self": 101,
+      "agreement": 0.9028169014084507,
+      "cohen_kappa": 0.5517922819344568
+    },
+    {
+      "model": "ALL_MODELS",
+      "tier": "INCOMPATIBLE",
+      "n": 1440,
+      "positive_external": 245,
+      "positive_self": 300,
+      "agreement": 0.9409722222222222,
+      "cohen_kappa": 0.8080903104421449
+    },
+    {
+      "model": "ALL_MODELS",
+      "tier": "ALL",
+      "n": 2150,
+      "positive_external": 319,
+      "positive_self": 401,
+      "agreement": 0.9283720930232559,
+      "cohen_kappa": 0.7437627789704387
+    }
+  ]
+}
