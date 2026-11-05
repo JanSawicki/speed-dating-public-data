@@ -23,6 +23,6 @@ Model-call collection dates and immutable provider snapshots were not recoverabl
 
 ## Version and citation
 
-This repository is versioned with Git. Cite the release tag or commit used in your analysis alongside the paper citation. The public-code repository contains the implementation; this repository contains saved outputs and derived data.
+This repository is versioned with Git. The initial public snapshot is release v1.0.0: https://github.com/JanSawicki/speed-dating-public-data/tree/v1.0.0. Cite this release tag or commit used in your analysis alongside the paper citation. The public-code repository contains the implementation; this repository contains saved outputs and derived data.
 
 No separate data license is asserted here. The outputs are generated from third-party model services; consult their applicable terms when reusing them.
